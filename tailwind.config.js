@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#1A0FB0",
+        primary: "#00A650",
         success: "#00A650",
         "light-gray": "#757575",
         "card-bg": "#F8F9FE",
@@ -20,3 +20,4 @@ module.exports = {
   },
   plugins: [],
 };
+
