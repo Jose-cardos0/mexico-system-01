@@ -19,7 +19,7 @@ export function Home() {
       />
 
       {/* Top decorative curve */}
-      <div className="absolute top-0 left-0 right-0 h-[25%] bg-[#1A0FB0] rounded-b-[2.5rem]"></div>
+      <div className="absolute top-0 left-0 right-0 h-[25%] bg-[#00A650] rounded-b-[2.5rem]"></div>
 
       <div className="container mx-auto px-4 pt-8 pb-20 relative">
         {/* Header */}
@@ -47,7 +47,7 @@ export function Home() {
 
           {/* Wallet icon */}
           <div className="flex justify-center mb-4">
-            <div className="w-16 h-16 bg-[#1A0FB0] rounded-full flex items-center justify-center">
+            <div className="w-16 h-16 bg-[#00A650] rounded-full flex items-center justify-center">
               <Wallet className="w-8 h-8 text-white" />
             </div>
           </div>
@@ -60,13 +60,13 @@ export function Home() {
           {/* Main value */}
           <AnimatedValue
             value={userData.totalFormsValue}
-            className="text-center text-[#1A0FB0] text-5xl font-bold mb-6"
+            className="text-center text-[#00A650] text-5xl font-bold mb-6"
           />
 
           {/* Salary card */}
           <div className="bg-[#F1F2FF] rounded-xl p-4 mb-6">
             <div className="flex items-center gap-2">
-              <Wallet className="w-5 h-5 text-[#1A0FB0]" />
+              <Wallet className="w-5 h-5 text-[#00A650]" />
               <span className="font-medium">Mi salario</span>
             </div>
             <p className="text-[#00A650] font-medium mt-1">
@@ -77,7 +77,7 @@ export function Home() {
           {/* Transfer button */}
           <button
             onClick={() => setIsTransferModalOpen(true)}
-            className="w-full bg-[#1A0FB0] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2"
+            className="w-full bg-[#00A650] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2"
           >
             <img
               src="https://i.ibb.co/ycd47ZT9/paypal-1.png"
@@ -90,7 +90,7 @@ export function Home() {
 
         {/* Forms Section */}
         <section>
-          <h2 className="text-[#1A0FB0] text-xl font-semibold mb-4">
+          <h2 className="text-[#00A650] text-xl font-semibold mb-4">
             Valores recibidos:
           </h2>
 
@@ -103,7 +103,7 @@ export function Home() {
                 className="w-full bg-white rounded-xl p-4 flex justify-between items-center shadow-sm"
               >
                 <div>
-                  <h3 className="text-[#1A0FB0] font-medium">{form.title}</h3>
+                  <h3 className="text-[#00A650] font-medium">{form.title}</h3>
                   <p className="text-gray-500">{form.type}</p>
                 </div>
                 <span className="text-[#00A650] font-medium">
@@ -113,7 +113,7 @@ export function Home() {
             ))}
           </div>
         </section>
-        <p className="text-center text-[#1A0FB0] underline font-medium mt-4">
+        <p className="text-center text-[#00A650] underline font-medium mt-4">
           Ver todos los formularios
         </p>
       </div>
@@ -122,13 +122,13 @@ export function Home() {
       <nav className="fixed bottom-0 left-0 right-0 bg-white border-t py-4">
         <div className="container mx-auto px-8">
           <div className="flex justify-between items-center">
-            <button className="text-[#1A0FB0]">
+            <button className="text-[#00A650]">
               <HomeIcon className="w-6 h-6" />
             </button>
-            <button className="text-[#1A0FB0]">
+            <button className="text-[#00A650]">
               <Wallet className="w-6 h-6" />
             </button>
-            <button className="text-[#1A0FB0]">
+            <button className="text-[#00A650]">
               <User className="w-6 h-6" />
             </button>
           </div>
@@ -137,3 +137,4 @@ export function Home() {
     </div>
   );
 }
+
