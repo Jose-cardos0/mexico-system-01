@@ -109,7 +109,7 @@ export function SuccessPage() {
 
               <div className="bg-[#F1F2FF] rounded-xl p-4">
                 <div className="flex items-center gap-2">
-                  <Wallet className="w-5 h-5 text-[#1A0FB0]" />
+                  <Wallet className="w-5 h-5 text-[#00A650]" />
                   <span className="text-gray-700">Mi salario</span>
                 </div>
                 <p className="text-[#00A650] font-medium mt-1">
@@ -120,7 +120,7 @@ export function SuccessPage() {
 
             <button
               onClick={() => setIsTransferModalOpen(true)}
-              className="w-full bg-[#1A0FB0] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2 mb-4"
+              className="w-full bg-[#00A650] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2 mb-4"
             >
               <img
                 src="https://i.ibb.co/ycd47ZT9/paypal-1.png"
@@ -132,7 +132,7 @@ export function SuccessPage() {
 
             <Link
               to="/"
-              className="block text-center text-[#1A0FB0] underline font-medium"
+              className="block text-center text-[#00A650] underline font-medium"
             >
               Volver a la página de inicio
             </Link>
@@ -140,7 +140,7 @@ export function SuccessPage() {
         </div>
 
         <div className="mb-20">
-          <h2 className="text-[#1A0FB0] text-xl font-semibold mb-4">
+          <h2 className="text-[#00A650] text-xl font-semibold mb-4">
             Formularios disponibles:
           </h2>
 
@@ -152,7 +152,7 @@ export function SuccessPage() {
             >
               <div className="flex justify-between items-center">
                 <div>
-                  <h3 className="text-[#1A0FB0] font-medium">
+                  <h3 className="text-[#00A650] font-medium">
                     {availableForms[index - 1].title}
                   </h3>
                   <p className="text-gray-500">
@@ -165,7 +165,7 @@ export function SuccessPage() {
               </div>
             </Link>
           ))}
-          <p className="text-center text-[#1A0FB0] underline font-medium">
+          <p className="text-center text-[#00A650] underline font-medium">
             Ver todos los formularios
           </p>
         </div>
@@ -174,13 +174,13 @@ export function SuccessPage() {
         <nav className="fixed bottom-0 left-0 right-0 bg-white border-t py-4">
           <div className="container mx-auto px-8">
             <div className="flex justify-between items-center">
-              <Link to="/" className="text-[#1A0FB0]">
+              <Link to="/" className="text-[#00A650]">
                 <Home className="w-6 h-6" />
               </Link>
-              <button className="text-[#1A0FB0]">
+              <button className="text-[#00A650]">
                 <Wallet className="w-6 h-6" />
               </button>
-              <button className="text-[#1A0FB0]">
+              <button className="text-[#00A650]">
                 <User className="w-6 h-6" />
               </button>
             </div>
@@ -190,3 +190,4 @@ export function SuccessPage() {
     </div>
   );
 }
+
