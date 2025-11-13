@@ -44,7 +44,7 @@ export function FormPage() {
           <form onSubmit={handleSubmit} className="space-y-6">
             <button
               type="submit"
-              className="w-full bg-[#1A0FB0] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2"
+              className="w-full bg-[#00A650] text-white py-4 rounded-xl font-medium flex items-center justify-center gap-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,3 +68,4 @@ export function FormPage() {
     </div>
   );
 }
+
